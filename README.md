@@ -1,8 +1,8 @@
-# Coding Assignment12
+# Coding Assignment13
 
-## To run this application on port 8083
+## To run this application on port 8018
 
-Fork the [GitHub repository](https://github.com/bozzywozzy/coding_assignment12) of this application.\
+Fork the [GitHub repository](https://github.com/bozzywozzy/coding_assignment13) of this application.\
 Ensure all project dependencies are installed.\
 To run the app on Localhost:
 
@@ -16,15 +16,15 @@ To create a Docker image, run:
 
 Then, to run the image as a container:
 
-### `docker run --name <desired_container_name> -it -p 8083:80 --rm <image_name>`
+### `docker run --name <desired_container_name> -it -p 8018:80 --rm <image_name>`
 
-Now open localhost:8083 in a browser!
+Now open localhost:8018 in a browser!
 
 ## Pull and run the application image from my Hub
 
-### `docker pull abozynski/bozynski_alina_coding_assignment12`
+### `docker pull abozynski/bozynski_alina_coding_assignment13`
 
-### `docker run --name <desired_container_name> -it -p 8083:80 --rm abozynski/bozynski_alina_coding_assignment12`
+### `docker run --name <desired_container_name> -it -p 8018:80 --rm abozynski/bozynski_alina_coding_assignment12`
 
 ## Available Scripts
 
@@ -32,7 +32,7 @@ In the project directory, you can run:
 
 ### `npm run storybook`
 
-Runs the Storybook component library in your browser on Localhost at port 8083.
+Runs the Storybook component library in your browser on Localhost at port 8018.
 
 ### `npm run test`
 
