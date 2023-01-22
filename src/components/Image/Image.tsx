@@ -16,7 +16,7 @@ const Image: FC<ImageProps> = ({ disabled, alt }) => {
     <Fragment>
       <StyledImage disabled={disabled} src={img} alt={alt} />
     </Fragment>
-  );
+  )
 };
 
 export default Image;
