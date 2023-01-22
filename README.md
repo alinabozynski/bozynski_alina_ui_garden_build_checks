@@ -20,7 +20,7 @@ Then, to run the image as a container:
 
 Now open localhost:8018 in a browser!
 
-## Pull and run the application image from my Hub
+## Pushing to this repo automaticaly creates an image. Pull and run the application image from my Hub
 
 ### `docker pull abozynski/bozynski_alina_coding_assignment13`
 
