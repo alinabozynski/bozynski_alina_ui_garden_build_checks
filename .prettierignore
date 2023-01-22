@@ -1,8 +1,6 @@
 package.json
 package-lock.json
 .gitignore
-.git
-.github
 .dockerignore
 storybook-static/
 dist/
