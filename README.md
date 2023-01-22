@@ -20,11 +20,13 @@ Then, to run the image as a container:
 
 Now open localhost:8018 in a browser!
 
-## Pushing to this repo automaticaly creates an image. Pull and run the application image from my Hub
+## Pushing to this repo automatically creates an image. Pull and run the application image from my Hub
 
 ### `docker pull abozynski/bozynski_alina_coding_assignment13`
 
 ### `docker run --name <desired_container_name> -it -p 8018:80 --rm abozynski/bozynski_alina_coding_assignment12`
+
+Then open localhost:8018 in a browser!
 
 ## Available Scripts
 
