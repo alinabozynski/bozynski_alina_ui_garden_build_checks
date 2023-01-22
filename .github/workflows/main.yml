@@ -31,7 +31,7 @@ jobs:
           npm install
           npm run lint
   build:
-    if: ${{ failure() == false }}
+    if: ${{ failure() }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
