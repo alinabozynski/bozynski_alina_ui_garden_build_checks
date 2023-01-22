@@ -36,7 +36,7 @@ module.exports = {
     },
   ],
   plugins: ["react", "@typescript-eslint", "prettier"],
-  ignorePatterns: "dist",
+  ignorePatterns: ["dist", "storybook-static"],
   rules: {
     quotes: [2, "double"],
     "comma-dangle": ["error", "only-multiline"],
