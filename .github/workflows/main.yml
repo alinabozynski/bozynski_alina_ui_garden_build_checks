@@ -31,7 +31,7 @@ jobs:
           npm install
           npm run lint
   build:
-    if: ${{ jobs.Jest == 'success' &&  jobs.Prettier == 'success' && jobs.Lint == 'success' }}
+    needs: [Jest, Prettier, Lint]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
