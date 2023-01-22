@@ -7,7 +7,7 @@ import Image from "./Image";
 describe("Running Test for Web Component Library Image", () => {
   test("Check if Image is Visible", () => {
     render(<Image />);
-    expect(screen.getByRole("img", { name: "" })).toBeVisible();
+    expect(screen.getByRole("img", { name: "test" })).toBeVisible();
   });
 
   test("Check if Image is Disabled", () => {
