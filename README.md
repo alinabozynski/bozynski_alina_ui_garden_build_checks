@@ -1,4 +1,4 @@
-# Coding Assignment 13
+# Coding Assignment 13 - Code Quality Checks
 
 ## Requirements
 
